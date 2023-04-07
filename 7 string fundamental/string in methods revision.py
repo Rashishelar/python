@@ -1,0 +1,46 @@
+#string method
+p=print
+a1='everybody in this country should Learn.How to program a computer.'
+a2='everybody know computer.everybody know AI.everybody know voice'
+a3='FIRST GENERATION'
+a4='first gereation1940'
+a5='1234560789'
+a6='a8'
+s1=a1.capitalize()
+p(s1)
+s2=a1.upper()
+p(s2)
+s3=a2.lower()
+p(s3)
+s4=a4.isalnum()
+p(s4)
+s5=a3.isalpha()
+p(s5)
+s6=s2.isupper()
+p('isupper',s6)
+s7=s3.islower()
+p('islower',s7)
+s8=a5.isdecimal()
+p('isdecimal',s8)
+s9=a5.isdigit()
+p('isdigit',s9)
+s10=a5.isnumeric()
+p('isnumeric',s10)
+s11=a3.title()
+p('title',s11)
+s12=a2.startswith('e')
+p('startswith',s12)
+s13=a3.endswith('N')
+p('endswith',s13)
+s14=a6.isidentifier()
+p('isidentifier',s14)
+s15=a3.center(75,'*')
+p('center',s15)
+s16=a2.count('know',10,30)
+p('count',s16)
+s17=a1.index('in')
+p('index',s17)
+s18=a2.find('everybody',10,40)
+p('find',s18)
+s19=a3.replace('FIRST','Second')
+p('replace',s19)

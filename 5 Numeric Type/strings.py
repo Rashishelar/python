@@ -1,0 +1,18 @@
+s='Rashi shelar'
+print('name',s)
+print(len(s))
+print('indexing')
+print(s[0])
+print(s[3])
+print(s[6])
+print(s[-2])
+print(s[-6])
+print(s[-12])
+print('slicing')
+print(s[0:5])
+print(s[2:10])
+print(s[:-1])
+print(s[-12:-6])
+s1='Everybody'
+s1.find('Ev')
+print(s1.find('Ev'))
