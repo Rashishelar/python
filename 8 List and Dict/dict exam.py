@@ -1,0 +1,28 @@
+dict1={
+    'ICIC':['17.17','17.52','23.48'],
+    'HDFC':['14.76','14.35','23.93'],
+    'KOTAK':['14.13','12.101','19.05'],
+    'SBI':['14.04','15.70','20.70'],
+    'DSP':['12.09','10.19','17.74']
+    }
+print('dict1:',dict1,len(dict1))
+print()
+
+dict2=dict1['KOTAK'][2]
+print('dict2:',dict2)
+dict3=dict1['SBI'][-1]
+print('dict3:',dict3)
+dict4=dict1['DSP'][-3]
+print('dict4:',dict4)
+dict5=dict1['SBI'][-2]
+print('dict5:',dict5)
+dict6=dict1['HDFC'][-3]
+print('dict6:',dict6)
+dict7=dict1['ICIC'][-1]
+print('dict7:',dict7)
+dict8=dict1['KOTAK'][-3]
+print('dict8:',dict8)
+dict9=dict1['DSP'][-2]
+print('dict9:',dict9)
+dict10=dict1['KOTAK'][0:2]
+print('dict10:',dict10)
