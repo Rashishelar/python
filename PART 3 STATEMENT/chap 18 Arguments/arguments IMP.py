@@ -1,4 +1,4 @@
-'''#add tuple
+#add tuple
 def add_type(args):
     result=0
     for i in range(len(args)):
@@ -14,13 +14,13 @@ def add_tuple(*pargs):
     result=add_type(pargs)
     print("additional of",type(pargs),result)
 
-add_tuple(tuple1,tuple2,tuple3)'''
-
+add_tuple(tuple1,tuple2,tuple3)
+'''
 #Add list
 
 list1=[20,3,5,5,8]
 list2=[8,9,8,9,8,9,8]
 list3=[2,10,50,90,80,7]
-
+'''
 
         
